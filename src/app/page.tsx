@@ -1,7 +1,5 @@
 "use client";
-
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import {
   Card,
   CardDescription,
@@ -88,9 +86,8 @@ export default function HeroisDaTretaLanding() {
             <div className="absolute top-40 right-20 w-1 h-1 bg-amber-300 rounded-full animate-pulse opacity-40 animation-delay-1000"></div>
             <div className="absolute bottom-32 left-1/4 w-1.5 h-1.5 bg-amber-500 rounded-full animate-pulse opacity-50 animation-delay-2000"></div>
           </div>
-
           <div className="absolute inset-0 bg-gradient-to-r from-amber-600/10 via-red-600/10 to-amber-600/10"></div>
-          <div className="container px-4 md:px-6 relative z-10">
+          <div className="container px-4 md:px-6 relative z-10 ml-8 sm:ml-12 md:ml-16 lg:ml-20 xl:ml-24">
             <div className="flex flex-col items-center space-y-8 text-center">
               {/* Logo Principal */}
               <div className="relative group">
@@ -103,7 +100,6 @@ export default function HeroisDaTretaLanding() {
                 />
                 <div className="absolute inset-0 bg-amber-400/20 rounded-full blur-3xl group-hover:bg-amber-400/30 transition-all duration-500 scale-150"></div>
               </div>
-
               <Badge
                 variant="outline"
                 className="border-amber-400/50 text-amber-300 bg-amber-400/10 backdrop-blur-sm px-6 py-2 text-lg font-semibold shadow-lg"
@@ -111,7 +107,6 @@ export default function HeroisDaTretaLanding() {
                 <Star className="w-4 h-4 mr-2" />
                 Guild Ativa • Albion Online
               </Badge>
-
               <div className="space-y-6">
                 <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl">
                   <span className="bg-gradient-to-r from-slate-100 via-white to-slate-200 bg-clip-text text-transparent drop-shadow-2xl">
@@ -128,7 +123,6 @@ export default function HeroisDaTretaLanding() {
                   <span className="text-amber-400 font-bold">treta</span>!
                 </p>
               </div>
-
               <div className="flex flex-col sm:flex-row gap-6 pt-4">
                 <Button
                   onClick={() =>
@@ -164,7 +158,6 @@ export default function HeroisDaTretaLanding() {
                         da Treta
                       </DialogDescription>
                     </DialogHeader>
-
                     <div className="space-y-6 py-4 pr-2">
                       <div className="grid gap-4">
                         {[
@@ -222,7 +215,6 @@ export default function HeroisDaTretaLanding() {
                           </div>
                         ))}
                       </div>
-
                       <div className="bg-gradient-to-r from-amber-500/10 to-red-500/10 p-4 rounded-lg border border-amber-500/30">
                         <div className="flex items-center gap-3 mb-2">
                           <Star className="h-5 w-5 text-amber-400" />
@@ -237,7 +229,6 @@ export default function HeroisDaTretaLanding() {
                           sobre sua situação.
                         </p>
                       </div>
-
                       <div className="flex gap-3 pt-4">
                         <Button
                           onClick={() => setIsModalOpen(false)}
@@ -268,7 +259,7 @@ export default function HeroisDaTretaLanding() {
           className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-r from-slate-900/50 to-slate-800/50 backdrop-blur-sm relative"
         >
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(251,191,36,0.05),transparent_70%)]"></div>
-          <div className="container px-4 md:px-6 relative z-10">
+          <div className="container px-4 md:px-6 relative z-10 ml-8 sm:ml-12 md:ml-16 lg:ml-20 xl:ml-24">
             <div className="grid gap-12 lg:grid-cols-[1fr_500px] lg:gap-16 xl:grid-cols-[1fr_600px] items-center">
               <div className="flex flex-col justify-center space-y-8">
                 <div className="space-y-6">
@@ -344,7 +335,7 @@ export default function HeroisDaTretaLanding() {
           className="w-full py-16 md:py-24 lg:py-32 relative"
         >
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(251,191,36,0.05),transparent_70%)]"></div>
-          <div className="container px-4 md:px-6 relative z-10">
+          <div className="container px-4 md:px-6 relative z-10 ml-8 sm:ml-12 md:ml-16 lg:ml-20 xl:ml-24">
             <div className="flex flex-col items-center justify-center space-y-8 text-center mb-16">
               <div className="space-y-6">
                 <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl">
@@ -361,7 +352,6 @@ export default function HeroisDaTretaLanding() {
                 </p>
               </div>
             </div>
-
             <div className="mx-auto grid max-w-6xl items-start gap-8 lg:grid-cols-3 lg:gap-12">
               {[
                 {
@@ -424,7 +414,7 @@ export default function HeroisDaTretaLanding() {
         {/* Requisitos */}
         <section className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-l from-slate-900/50 to-slate-800/50 backdrop-blur-sm relative">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(251,191,36,0.05),transparent_70%)]"></div>
-          <div className="container px-4 md:px-6 relative z-10">
+          <div className="container px-4 md:px-6 relative z-10 ml-8 sm:ml-12 md:ml-16 lg:ml-20 xl:ml-24">
             <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
               <div className="flex flex-col justify-center space-y-8">
                 <div className="space-y-6">
@@ -465,7 +455,7 @@ export default function HeroisDaTretaLanding() {
                   <div className="absolute inset-0 bg-gradient-to-r from-amber-500/20 to-red-500/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
                   <Image
                     src="/images/recrutamento.webp"
-                    width="700"
+                    width="500"
                     height="500"
                     alt="Batalha PvP em Albion Online"
                     className="relative mx-auto rounded-2xl shadow-2xl transition-transform duration-500 group-hover:scale-105"
@@ -482,10 +472,10 @@ export default function HeroisDaTretaLanding() {
           className="w-full py-16 md:py-24 lg:py-32 relative"
         >
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(251,191,36,0.1),transparent_70%)]"></div>
-          <div className="container px-4 md:px-6 relative z-10">
-            <div className="flex flex-col items-center justify-center space-y-8 text-center">
-              <div className="space-y-6">
-                <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+          <div className="w-full h-full flex items-center justify-center px-4 md:px-6 relative z-10 min-h-[50vh] sm:min-h-[60vh] lg:min-h-[70vh] ml-8 sm:ml-12 md:ml-16 lg:ml-20 xl:ml-24">
+            <div className="flex flex-col items-center justify-center space-y-8 sm:space-y-10 md:space-y-12 text-center w-full max-w-4xl mx-auto">
+              <div className="space-y-8">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
                   <span className="bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
                     Pronto para a{" "}
                   </span>
@@ -493,41 +483,36 @@ export default function HeroisDaTretaLanding() {
                     Treta?
                   </span>
                 </h2>
-                <p className="mx-auto max-w-[700px] text-slate-300 text-xl leading-relaxed">
+                <p className="mx-auto max-w-[90%] sm:max-w-[700px] text-slate-300 text-lg sm:text-xl md:text-xl leading-relaxed">
                   Entre em contato conosco e faça parte da guild mais épica de
                   Albion Online! A aventura te espera.
                 </p>
               </div>
 
-              <div className="mx-auto w-full max-w-md space-y-6">
-                <div className="flex flex-col gap-4 p-8 bg-gradient-to-br from-slate-800/80 to-slate-900/80 rounded-2xl border border-amber-500/20 backdrop-blur-sm shadow-2xl">
-                  <Input
-                    type="text"
-                    placeholder="Seu nome no jogo"
-                    className="bg-slate-900/50 border-amber-500/30 text-white placeholder:text-slate-400 h-12 text-lg focus:border-amber-400 transition-colors duration-300"
-                  />
-                  <Input
-                    type="text"
-                    placeholder="Seu Discord"
-                    className="bg-slate-900/50 border-amber-500/30 text-white placeholder:text-slate-400 h-12 text-lg focus:border-amber-400 transition-colors duration-300"
-                  />
-                  <Button className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white h-12 text-lg font-semibold shadow-lg hover:shadow-amber-500/25 transition-all duration-300 transform hover:scale-105">
-                    <Sword className="mr-2 h-5 w-5" />
-                    Solicitar Convite
-                  </Button>
-                </div>
+              <div className="flex flex-col items-center space-y-8">
+                <p className="text-slate-400 text-lg sm:text-xl">
+                  Entre direto no nosso Discord:
+                </p>
 
-                <div className="text-center space-y-4">
-                  <p className="text-slate-400 text-lg">
-                    Ou entre direto no nosso Discord:
-                  </p>
+                <Link
+                  href="https://discord.gg/cYCH76ew"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button
+                    size="lg"
                     variant="outline"
-                    className="border-2 border-amber-500/50 text-amber-300 hover:bg-amber-500/10 bg-slate-900/50 backdrop-blur-sm h-12 px-8 text-lg font-semibold hover:border-amber-400 transition-all duration-300"
+                    className="border-2 border-amber-500/50 text-amber-300 hover:bg-amber-500/10 bg-slate-900/50 backdrop-blur-sm 
+            h-16 px-8 text-lg font-semibold
+            sm:h-20 sm:px-12 sm:text-xl 
+            md:h-24 md:px-16 md:text-2xl 
+            lg:h-24 lg:px-20 lg:text-2xl 
+            xl:h-28 xl:px-24 xl:text-3xl
+            hover:border-amber-400 transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-amber-500/25"
                   >
                     🎮 Discord: Heróis da Treta
                   </Button>
-                </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -536,7 +521,7 @@ export default function HeroisDaTretaLanding() {
         {/* Stats */}
         <section className="w-full py-16 md:py-24 lg:py-32 bg-gradient-to-r from-slate-900/80 to-slate-800/80 backdrop-blur-sm relative">
           <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(251,191,36,0.02)_25%,transparent_25%,transparent_75%,rgba(251,191,36,0.02)_75%)]"></div>
-          <div className="container px-4 md:px-6 relative z-10">
+          <div className="container px-4 md:px-6 relative z-10 ml-8 sm:ml-12 md:ml-16 lg:ml-20 xl:ml-24">
             <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2">
               {[
                 { number: "100+", label: "Membros Ativos" },
@@ -568,7 +553,7 @@ export default function HeroisDaTretaLanding() {
       >
         <div className="flex items-center gap-3">
           <Image
-            src="/images/logo-ht.webp"
+            src="/placeholder.svg?height=32&width=32"
             alt="Logo Heróis da Treta"
             width={32}
             height={32}
