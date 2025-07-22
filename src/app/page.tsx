@@ -553,7 +553,7 @@ export default function HeroisDaTretaLanding() {
       >
         <div className="flex items-center gap-3">
           <Image
-            src="/placeholder.svg?height=32&width=32"
+            src="/images/logo-ht.webp"
             alt="Logo Heróis da Treta"
             width={32}
             height={32}
